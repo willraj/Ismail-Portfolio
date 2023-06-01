@@ -1,0 +1,182 @@
+#intro-img{
+    margin-top: 30px;
+    height: 430px;
+    width: 480px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+.home{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#8696FE;
+
+}
+.left-intro-Content{
+    margin-top: 13vh;
+}
+#intro-text {
+    font-size: 7rem;
+    font-family: 'Sacramento', cursive;
+    margin: 0 0 0;
+    line-height: 1.1;
+}
+#h2-intro{
+    font-family: 'Aoboshi One', serif; 
+}
+#h3-intro{
+    font-family: 'Aoboshi One', serif; 
+}
+span {
+    text-decoration: underline;
+}
+.nav-l{
+    position: absolute;
+    right: 50px;
+}
+.nav-b{
+    margin-left: 50px;
+    font-weight: 600;
+}
+.navbar{
+    background-color:#8696FE;
+   padding-top: 13px;
+   padding-bottom: 30px;
+}
+/* skill */
+
+.skill{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+
+.skill-con{
+    padding: 100px;
+}
+
+.skill-icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.skill-info{
+    margin-top: 10px;
+}
+
+
+.bg-bar{
+    background-color: #1B9C85 ;
+}
+.sub-skill-title{
+    font-weight: 350;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.contact{
+    background-color:#8696FE;
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  
+    margin : 20px auto;
+   
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+   margin: 50px 150px;
+   border-radius: 16px;
+}
+.msg{
+    margin-bottom: 25px;
+}
+.contact-info{
+    display:inline-block;
+    
+}
+.con-left{
+    padding: 50px;
+    font-weight: 500;
+}
+.footer-bg{
+    background-color: #212A3E;
+   height: 100px;
+   color: #fff;
+
+
+}
+.footer-con{
+ text-align: center;
+ margin-top: 20px;
+ }
+.footer-icon{
+  font-size: 30px;
+  margin: 0 5px;
+ 
+}
+
+/* carousal  */
+.carousal-con{
+    height: 340px;
+    text-align: center;
+    background: #8696FE;
+    margin-top: 30px;
+}
+.certificate{
+font-display: flex;
+flex-direction: column;
+align-items: center;
+}
+.certificate-main{
+    background-color:  #8696FE;
+}
+
+.course-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.certificate-title{
+    margin-top: 40px;
+}
+.certificate-insti{
+    font-weight: 350;
+}
+.btn{
+    margin-top: 10px;
+}
+.exp-main{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.WE-left{
+   padding-bottom: 100px;
+
+}
+.WE-right{
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 20px;
+    border-radius: 16px;
+    background: #8696FE;
+}
+.Exp-title{
+    margin: 30px 0;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1080px) {
+  .mobile{
+    text-align: center;
+  }
+  .contact{
+    text-align: center;
+  }
+  }

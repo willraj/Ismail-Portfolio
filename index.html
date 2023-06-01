@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon.ico">
+    <!-- font Awesome icon CDN -->
+    <script src="https://kit.fontawesome.com/cfdd98fa9f.js" crossorigin="anonymous"></script>
+    <!-- Google fonts Home-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Google-fonts Skill -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand nav-b" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-l" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workExp">Experiance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid home" id="home">
+        <!-- Intro-part -->
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="left-intro-Content mobile">
+                <h1 id="intro-text">hi</h1>
+                <h2 id="h2-intro">I'm Ismail</h2>
+                <h3 id="h3-intro">a Product <span>Enthusiast</span></h3>
+                </div>
+            </div>
+            <div class="col-lg-5 mobile">
+                <img id="intro-img" src="./images/customer-relationship-main-theme.jpg" alt="intro-img">
+            </div>
+        </div>
+    </div>
+    <!-- skill section -->
+
+    <div class="conatiner-fluid">
+      <div class="row skill" id="skill">
+        <div class="col-lg-4 skill-con">
+          <i class="fa-solid fa-users-rectangle fa-2xl skill-icon" style="color: #8696fe;"></i>
+          <h3 class="skill-title">Traning & Mentoring</h3>
+          <p class="skill-info">Clear guaiance and introduction to product use case. Support client qustions about the product</p>
+        </div>
+
+        <div class="col-lg-4 skill-con">
+          <i class="fa-solid fa-layer-group fa-2xl skill-icon" style="color: #9686fe;"></i>
+          <h3 class="skill-title">Product Management</h3>
+          <p class="skill-info">Identifies the customer need and the larger business objectives that a product or feature will fulfill, articulates what success looks like for a product</p>
+        </div>
+
+        <div class="col-lg-4 skill-con">
+          <i class="fa-solid fa-child-reaching fa-2xl skill-icon" style="color: #9686fe;"></i>
+          <h3 class="skill-title">Traning & Mentoring</h3>
+          <p class="skill-info">Clear guaiance and introduction to product use case. Support client qustions about the product</p>
+        </div>
+    </div>
+
+    <!-- Course and Certificates -->
+
+    <div class="container-fluid certificate-main" id="certificate">
+      <div class="row certificate">
+        <div class="col-12"><h2 class="course-title">Course & Certificates</h2></div>
+        <div class="col-10">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active carousal-con">
+                <h1 class="certificate-title">What is Business analysis?</h1>
+                <h4 class="certificate-insti">Project management institute</h4>
+              </div>
+              <div class="carousel-item carousal-con">
+                <h1 class="certificate-title">ITIL Foundational Certification</h1>
+                <h4 class="certificate-insti">Udemy</h4>
+              </div>
+              <div class="carousel-item carousal-con">
+
+                <h1 class="certificate-title">Foundation and Project Management</h1>
+                <h4 class="certificate-insti">Google</h4>
+
+              </div>
+              <div class="carousel-item carousal-con">
+                <h1 class="certificate-title">Professional Scrum Master</h1>
+                <h4 class="certificate-insti">Udemy</h4>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experiance -->
+
+    <div class="container exp-main" id="workExp">
+      <div class="row">
+        <div class="col-lg-12 emai Exp-title"><h2>Work Experiance</h2></div>
+        <div class="col-lg-7 WE-left">
+          <h1>Functional Consultant</h1>
+          <h4>Crystal HR security solutions</h4>
+          <p>My expertise lies in analyzing business processes, identifying areas for improvement, and designing and implementing solutions that drive business value. I am skilled in Implementation, stakeholder management, solution provider, testing, training, etc,. and have a deep understanding of HRMS domain software. I am a strong communicator and collaborator, with a passion for delivering high-quality results and exceeding client expectations.</p>
+        </div>
+        <div class="col-lg-5 WE-right">
+          <h2>Achievement & Tasks</h2>
+          <p>Technical and Managerial roles with primary focus on Application Development,Implementation and Support.</p>
+         <p>Performed Database Administration - Installation, Configuration, Application tuning, Backup and Restoration activities.</p>
+         <p>Successfully completed implementation and support for more than 15 companies.</p>
+         <p>Provide Training to HR and other stakeholders on the use of HRMS software(Wallet HR) and related processes to automate the business and workflow process.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid contact" id="contact">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form contact-form contact-bg">
+                    <h2>Contact</h2>
+                    <form action="mailto:asmismail2904@gmail.com" method="get" enctype="text/plain">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Name</label>
+                          <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Email</label>
+                          <input name="email" type="email" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-floating msg">
+                            <textarea name="msg" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea" value="send">Message</label>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                </div>
+            </div>
+            <div class="col-lg-6 con-left ">
+                <div class="contact-details">
+                    <i class="fa-solid fa-mobile-screen-button" style="color: #9686fe;"></i>  <P class="contact-info">Phone: +91 8056662229</P><br>
+                    <i class="fa-solid fa-envelope" style="color: #9686fe;"></i>  <p class="contact-info">Email : asmismail2904@gmail.com</p><br>
+                    <i class="fa-solid fa-address-book" style="color:#9686fe;"></i> <p class="contact-info">Address : Chennai</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- footer -->
+    <div class="container-fluid">
+      <div class="row footer-bg" >
+          <div class="col-lg-12 footer-con">
+              <a href="https://www.linkedin.com/in/mohammed-ismail-166a14156" target="_blank"><i class="fa-brands fa-linkedin footer-icon" style="color: #608fe2;"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram footer-icon" style="color: #ff3333;"></i></a>
+
+              <p>Copyright @ Mohammed Ismail</p><br>
+          </div>
+      </div>
+  </div>
+    <script src="./index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
